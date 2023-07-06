@@ -1,5 +1,6 @@
 package Array;
 
+import java.util.Arrays;
 
 class arr {
     public static void main(String[] args){
@@ -13,5 +14,9 @@ class arr {
         for(int i : arr){
             System.out.println(i);
         }
+
+        //printing array using java array labrary
+
+        System.out.println(Arrays.toString(arr));
     }
 }
