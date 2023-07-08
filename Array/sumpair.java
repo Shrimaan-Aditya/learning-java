@@ -14,7 +14,7 @@ class sumpair {
                 }
             }
         }
-        System.out.println(Arrays.toString(dummy));
+        
         return dummy;
     }
 
