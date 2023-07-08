@@ -10,16 +10,16 @@ class sumpair {
                 if (sum == target) {
                     dummy[0] = a[i];
                     dummy[1] = a[j];
-                    break;  // Added a break to exit the loop once the target sum is found
+                    return dummy;
                 }
             }
         }
+        throw new IllegalArgumentException("No Soultion Found");       
         
-        return dummy;
     }
 
     public static void main(String[] args) {
         int[] array = {2, 3, 4, 5, 6, 7, 8};
-        System.out.println(Arrays.toString(sumCheck(array, 10)));  // Print the result using Arrays.toString()
+        System.out.println(Arrays.toString(sumCheck(array, 11)));  // Print the result using Arrays.toString()
     }
 }
