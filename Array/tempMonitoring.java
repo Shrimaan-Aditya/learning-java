@@ -23,6 +23,7 @@ class tempMonitoring {
             }
         }
         System.out.print("Average Tempertature : "+avg+" and "+count+" Days Temperature was Higher then Average");
+        sc.close();
 
     }
 }

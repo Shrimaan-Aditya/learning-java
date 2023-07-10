@@ -6,17 +6,17 @@ public class gdc {
         System.out.println("Enter the Number and its power");
         int n = sc.nextInt();
         int m = sc.nextInt();
-        System.out.println(gdc(n, m));
+        System.out.println(gdcw(n, m));
        sc.close();
 }
 
-    static int gdc(int n, int m){
+    static int gdcw(int n, int m){
         if(n<=0||m<0){
             return 0;
         }else if(m==0){
             return n;
         }else{
-            return gdc(m,n%m);
+            return gdcw(m,n%m);
         }
     }
 }

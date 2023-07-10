@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 class findingnum {
      public static void numCheck(int[] a, int target) {
