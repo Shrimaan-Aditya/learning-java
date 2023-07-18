@@ -9,7 +9,10 @@ class findGCD {
             return 0;
         }else if(m==0){
             return n;
-        }else{
+        }else if(n==m){
+            return n;
+        }
+        else{
             return findingGCD(m,n%m);
         }
     }
