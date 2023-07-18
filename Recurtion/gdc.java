@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class gdc {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the Number and its power");
+        System.out.println("Enter the Numbers");
         int n = sc.nextInt();
         int m = sc.nextInt();
         System.out.println(gdcw(n, m));
